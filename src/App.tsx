@@ -1,23 +1,11 @@
 import React from 'react';
-// import MyForm from './Myform';
-import Counter from './components/Counter';
-// import Greetings from './Greetings';
+import CounterContainer from './containers/CounterContainer';
 
-const App: React.FC = () => {
 
-  // const onClick = (name: string) => {
-  //   console.log(`${name} says hello`);
-  // }
-
-  // const onSubmit = (form: {name: string; description: string}) => {
-  //   console.log(form);
-  // };
-
+function App() {
   return (
     <div>
-      {/* <MyForm onSubmit={onSubmit} /> */}
-      <Counter />
-      {/* <Greetings name="keen" optional="호잇" onClick={onClick} /> */}
+      <CounterContainer />
     </div>
   );
 }
