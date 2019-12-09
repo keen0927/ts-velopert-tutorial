@@ -1,0 +1,11 @@
+"use strict";
+var count = 0;
+count += 1;
+// count = '가나다라마바사';
+var done = true;
+var numbers = [1, 2, 3];
+var message = ['Hello', 'Keen'];
+message.push('1');
+var mightBeUndefined = '2';
+var nullableNumber = null;
+var color = 'blue';
